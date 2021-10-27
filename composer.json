@@ -1,0 +1,29 @@
+{
+    "name": "adaptdk/http-mock",
+    "description": "Mock data from external API by recording and storing data sets locally.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakob Lau Møller",
+            "email": "jakob.lau@adaptagency.com"
+        },
+        {
+            "name": "Jess Stopa",
+            "email": "jess@adaptagency.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Adaptdk\\HttpMock\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adaptdk\\HttpMock\\HttpMockServiceProvider"
+            ]
+        }
+    }
+}
